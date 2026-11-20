@@ -1,0 +1,22 @@
+# Posyandu Digital - System Requirements
+# Catatan: dependencies Node.js ada di package.json (bukan file ini).
+# Install: npm install
+
+# Runtime
+Node.js >= 20.x
+npm >= 10.x
+
+# Services
+Supabase account (Auth + Postgres + Storage)
+
+# Environment variables (.env.local)
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
+
+# Database tables
+public.balita
+public.pengukuran
+
+# Storage buckets
+avatars (public) - untuk foto profil kader
